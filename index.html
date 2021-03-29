@@ -11,7 +11,31 @@
     <title>Bootstrap This!!!</title>
   </head>
   <body>
-    <h1>Boostrap This!!!</h1>
+    <nav class="navbar navbar-light" style="background-color:lightblue;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+     </div>
      <div class="container">
        <div class="row">
          <div class="col">
@@ -94,7 +118,71 @@
      <div class="container">
       <div class="row">
         <div class="col"><ul class="list-group">
+<h2>Modal</h2>
+<p>
+   creates pop-up dialog when you press the button. In this example I created a terms and Conditions pop-up.
+</p>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Agree to terms and Conditions
+</button>
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Terms & Conditions</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <h5>
+          Personal Info
+       </h5>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus maxime voluptatibus
+         nesciunt vitae error. Est voluptatem voluptate dolorem voluptatum impedit, facere saepe
+          non nam mollitia voluptas architecto eaque cum rem! Lorem ipsum dolor sit amet consectetur
+           adipisicing elit. Nesciunt animi labore obcaecati, ratione, aperiam voluptates est suscipi
+           t architecto, doloribus voluptatibus numquam vitae veritatis esse rerum dicta rem? Incidu
+           nt, atque debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aspernatur 
+           dolorum temporibus, deserunt a harum mollitia. Ipsum neque omnis ea quod saepe porro autem. C
+           um quis omnis consequatur perspiciatis illum!
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae at officiis, laboriosam 
+           fugit illo cupiditate quisquam odit pariatur illum temporibus, suscipit possimus voluptate iusto
+            molestiae quas nulla maiores ut incidunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Iusto, neque libero doloribus adipisci possimus quae porro nostrum voluptatem aut fugit laboriosam 
+             soluta iste modi. Consequatur corrupti assumenda doloremque dignissimos quidem.
+             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque tenetur odit molestiae.
+              Quam quibusdam quos maxime qui at vitae quaerat quod accusamus ab laboriosam! Veniam
+               consequuntur consectetur minus nisi officia.
+      </div>
+      <div class="modal-dialog modal-dialog-scrollable">
+        <h5>Cookies</h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nam maxime officiis molestiae,
+         dolores nesciunt eligendi aspernatur inventore ex obcaecati ipsa voluptas, modi, doloribus odio
+          qui. Perferendis blanditiis fugiat nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Id est non neque alias minus! Recusandae accusantium dicta, rem error labore et, explicabo hic ipsum animi deserunt ad officia, veritatis ab!
+           <h5>
+             Other Info
+           </h5>
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam dolores cupiditate maxime perspiciatis culpa neque, nemo quam rerum
+            architecto? Beatae quod voluptatibus reiciendis distinctio, earum eius commodi dignissimos consequatur fugit! Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. Commodi non voluptates maiores blanditiis facilis voluptatibus qui voluptatem nemo, velit vel 
+             pariatur ipsam, eligendi, quae neque molestiae natus magnam. Aspernatur, ex?
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Disagree</button>
+        <button type="button" class="btn btn-primary">Agree</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+     </div>
+     <div class="container">
+      <div class="row">
+        <div class="col"><ul class="list-group">
           <h4>Lists</h4>
+          <p>
+            lists are a powerful componant for displayiong a series of content.
+          </p>
       <li class="list-group-item active" aria-current="true">An active item</li>
       <li class="list-group-item">A second item</li>
       <li class="list-group-item">A third item</li>
