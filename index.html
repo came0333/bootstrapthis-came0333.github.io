@@ -13,7 +13,7 @@
   <body>
     <nav class="navbar navbar-light" style="background-color:lightblue;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Bootstrap This!!!!</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,20 +40,36 @@
        <div class="row">
          <div class="col">
           <h2>What is Bootstraps?</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, assumenda. Temporibus 
-            vero aliquid distinctio. Veniam nostrum, odio perspiciatis nisi vel incidunt debitis
-             voluptas consectetur, quisquam, sunt voluptatibus atque illum temporibus!</p>
-             </div>
-           </div>
-       </div>
-     </div>
+          <p>
+            Bootstrap is the worlds most popular framework building responsive mobile first sites.
+          </p>
+          <h4>Open Source</h4>
+          <p>Bootstrap is an open source toolkit that develops HTML,CSS and JavaScript. This tool quickly developsa prototype using their
+            Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful plugins built 
+            in jQuery.
+          </p>
+          <h4>Mobile First</h4>
+          <p>
+            Bootstraps includes a powerful mobile first flexbox grid to easily build layouts.Thanks to 
+            a twelve column stystem.
+          </p>
+          <div
+     class="bg-primary">
+     <div class="container">
+       <div class="row">
+         <div class="col">
+           <p class="text-white pt-3"> First copy/paste the css from https://getbootstrap.com/ to your head
+            tag</p>
+         </div>
+        </div>
+          </div>
+          </div>
      <div class="container">
       <div class="row">
         <div class="col">
          <h2>Grid</h2>
          <p>bootstrap grid uses grids,containers,rows and columns to layout and align content.
            Its resposive.
-
          </p>
         </div>
       </div>
@@ -89,7 +105,11 @@
        <div class="container">
         <div class="row">
           <div class="col">
+            <!--Nav info-->
             <h3>Navbar</h3>
+            <p>Bootstraps powerful responsive navigation header, You can add branding,navigation,a logo and more, 
+              It also includes support for the collapse plugin.In this example I created a nav bar with a dropdown and a search 
+            bar at the bottom.</p>
             <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
               <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -102,15 +122,31 @@
                     <a class="nav-link" href="#">Features</a>
                     <a class="nav-link" href="#">Pricing</a>
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <nav class="navbar navbar-light bg-light">
+                      <div class="container-fluid">
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </nav>
                   </div>
                 </div>
               </div>
             </nav>
        </div>
+       <!--Buttons info-->
        <div class="col">
          <p><h3>Buttons</h3>
+          <p>
+            You can use custom button styles in forms,dialog and more and they are supportive of multiple sizes,states ect.. 
+            Bootstraps includes many different button styles. Each of them serve a purpose.
+            The examples I used were a large button style,Inactive Button,a warning and a success button.
+          </p>
           <button type="button" class="btn btn-primary btn-lg">Large button</button>
           <button type="button" class="btn btn-lg btn-primary" disabled>Inactive</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-success">Success</button>
             </p>
        </div>
       </div>
@@ -118,9 +154,11 @@
      <div class="container">
       <div class="row">
         <div class="col"><ul class="list-group">
+          <!--Modal info-->
 <h2>Modal</h2>
 <p>
-   creates pop-up dialog when you press the button. In this example I created a terms and Conditions pop-up.
+   creates pop-up dialog when you press the button. In this example I created a terms and Conditions pop-up. Once you open
+    it you can either click agree or Disagree. An X button was also added to escape the page.
 </p>
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
   Agree to terms and Conditions
@@ -133,6 +171,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
+        <button type="button" class="btn-close" aria-label="Close"></button>
        <h5>
           Personal Info
        </h5>
@@ -153,20 +192,6 @@
               Quam quibusdam quos maxime qui at vitae quaerat quod accusamus ab laboriosam! Veniam
                consequuntur consectetur minus nisi officia.
       </div>
-      <div class="modal-dialog modal-dialog-scrollable">
-        <h5>Cookies</h5>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nam maxime officiis molestiae,
-         dolores nesciunt eligendi aspernatur inventore ex obcaecati ipsa voluptas, modi, doloribus odio
-          qui. Perferendis blanditiis fugiat nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Id est non neque alias minus! Recusandae accusantium dicta, rem error labore et, explicabo hic ipsum animi deserunt ad officia, veritatis ab!
-           <h5>
-             Other Info
-           </h5>
-           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam dolores cupiditate maxime perspiciatis culpa neque, nemo quam rerum
-            architecto? Beatae quod voluptatibus reiciendis distinctio, earum eius commodi dignissimos consequatur fugit! Lorem ipsum dolor sit,
-             amet consectetur adipisicing elit. Commodi non voluptates maiores blanditiis facilis voluptatibus qui voluptatem nemo, velit vel 
-             pariatur ipsam, eligendi, quae neque molestiae natus magnam. Aspernatur, ex?
-      
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Disagree</button>
         <button type="button" class="btn btn-primary">Agree</button>
@@ -176,6 +201,7 @@
   </div>
 </div>
      </div>
+     <!--Lists info-->
      <div class="container">
       <div class="row">
         <div class="col"><ul class="list-group">
@@ -192,6 +218,7 @@
   </div>
 </div>
 </div>
+<!--Card info-->
 <div class="container">
   <div class="row">
     <div class="col">
@@ -209,6 +236,7 @@
     <a href="#" class="btn btn-primary">View More</a>
   </div>
 </div>
+<!--Alert info-->
 <div class="container">
   <div class="row">
     <div class="col">
@@ -227,6 +255,29 @@
                </div>
               </div>
             </div>
+            </div>
+            <!--Breadcrumbs info-->
+            <div class="container">
+              <div class="row"> 
+                <h2>Breadcrumbs</h2>
+                <p>
+                  Secondary Navigation that shows the users location in a website.
+                  In this example it shows that the user is on the portfolio section on the Homepage.
+                </p>
+                <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+              </ol>
+            </nav>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+              </ol>
+            </nav>
+            </div>
+            </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
